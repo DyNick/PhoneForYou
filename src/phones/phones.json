@@ -1,0 +1,74 @@
+[
+  {
+    "age": 0,
+    "id": "iPhone-SE-64GB",
+    "imageUrl": "src/img/iPhones/iPhone SE 64GB-0.jpg",
+    "name": "iPhone SE 64GB ",
+    "display": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution",
+    "camera": "12MP iSight camera with Focus Pixels, True Tone flash and Live Photos",
+    "os": "iOS 10 and iCloud",
+    "price": "130.55$",
+    "snippet": "iPhone SE features a 4-inch Retina display, an A9 chip with 64-bit desktop-class architecture, the Touch ID fingerprint sensor, a 12MP iSight camera, a FaceTime HD camera with Retina Flash, Live Photos, LTE and fast Wi-Fi, iOS 9, and iCloud.",
+    "status": true
+  },
+  {
+    "age": 1,
+    "id": "iPhone-SE-16GB",
+    "imageUrl": "src/img/iPhones/iPhone SE 16GB-01.jpg",
+    "name": "iPhone SE 16GB ",
+    "display": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution",
+    "camera": "12MP iSight camera with Focus Pixels, True Tone flash and Live Photos",
+    "os": "iOS 10 and iCloud",
+    "price": "110.50$",
+    "snippet": "iPhone SE features a 4-inch Retina display, an A9 chip with 64-bit desktop-class architecture, the Touch ID fingerprint sensor, a 12MP iSight camera, a FaceTime HD camera with Retina Flash, Live Photos, LTE and fast Wi-Fi, iOS 9, and iCloud.",
+    "status": true
+  },
+  {
+    "age": 2,
+    "id": "iPhone-6s-32GB",
+    "imageUrl": "src/img/iPhones/iPhone 6s 32GB -0.jpg",
+    "name": "iPhone 6s 32GB ",
+    "display": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution",
+    "camera": "12MP iSight camera with Focus Pixels, True Tone flash and Live Photos",
+    "os": "iOS 10 and iCloud",
+    "price": "120.50$",
+    "snippet": "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 10 and iCloud. All in a smooth, continuous unibody design.",
+    "status": true
+  },
+  {
+    "age": 3,
+    "id": "iPhone-7-plus-128GB",
+    "imageUrl": "src/img/iPhones/iPhone 7 Plus 128GB-0.jpg",
+    "name": "iPhone 7 plus 128GB",
+    "display": "5.5-inch (diagonal) Retina HD display with 1920-by-1080 resolution and wide color",
+    "camera": "New 12MP cameras with optical zoom at 2x, digital zoom up to 10x, optical image stabilization, Quad-LED True Tone flash, and Live Photos",
+    "os": "iOS 10 and iCloud",
+    "price": "290.50$",
+    "snippet": "iPhone 7 Plus features Dual 12MP cameras for high-resolution zoom and an ƒ/1.8 aperture for great low-light photos and 4K video. Optical image stabilization. A 5.5-inch Retina HD display with wide color and 3D Touch. An A10 Fusion chip for up to 2x faster performance than iPhone 6. Touch ID. Faster LTE. The longest battery life in an iPhone. Immersive stereo sound, splash and water resistant, and iOS 10.",
+    "status": true
+  },
+  {
+    "age": 4,
+    "id": "iPhone-7-32GB",
+    "imageUrl": "src/img/iPhones/iPhone 7 32GB-0.jpg",
+    "name": "iPhone 7 32GB",
+    "display": "5.5-inch (diagonal) Retina HD display with 1920-by-1080 resolution and wide color",
+    "camera": "New 12MP cameras with optical zoom at 2x, digital zoom up to 10x, optical image stabilization, Quad-LED True Tone flash, and Live Photos",
+    "os": "iOS 10 and iCloud",
+    "price": "290.50$",
+    "snippet": "iPhone 7 Plus features Dual 12MP cameras for high-resolution zoom and an ƒ/1.8 aperture for great low-light photos and 4K video. Optical image stabilization. A 5.5-inch Retina HD display with wide color and 3D Touch. An A10 Fusion chip for up to 2x faster performance than iPhone 6. Touch ID. Faster LTE. The longest battery life in an iPhone. Immersive stereo sound, splash and water resistant, and iOS 10.",
+    "status": false
+  },
+  {
+    "age": 5,
+    "id": "iPhone-7-128GB",
+    "imageUrl": "src/img/iPhones/iPhone 7 128GB -0.jpg",
+    "name": "iPhone 7 128GB",
+    "display": "5.5-inch (diagonal) Retina HD display with 1920-by-1080 resolution and wide color",
+    "camera": "New 12MP cameras with optical zoom at 2x, digital zoom up to 10x, optical image stabilization, Quad-LED True Tone flash, and Live Photos",
+    "os": "iOS 10 and iCloud",
+    "price": "390.50$",
+    "snippet": "iPhone 7 Plus features Dual 12MP cameras for high-resolution zoom and an ƒ/1.8 aperture for great low-light photos and 4K video. Optical image stabilization. A 5.5-inch Retina HD display with wide color and 3D Touch. An A10 Fusion chip for up to 2x faster performance than iPhone 6. Touch ID. Faster LTE. The longest battery life in an iPhone. Immersive stereo sound, splash and water resistant, and iOS 10.",
+    "status": false
+  }
+]

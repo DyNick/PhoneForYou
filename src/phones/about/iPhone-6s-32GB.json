@@ -1,0 +1,15 @@
+{
+  "name": "iPhone 6s 32GB",
+  "description": "A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 10 and iCloud. All in a smooth, continuous unibody design.",
+  "id": "iPhone-6s-32GB",
+  "display": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution",
+  "camera": "12MP iSight camera with Focus Pixels, True Tone flash and Live Photos",
+  "os": "iOS 10 and iCloud",
+  "price": "190.55$",
+  "images": [
+    "src/img/iPhones/iPhone 6s 32GB -0.jpg",
+    "src/img/iPhones/iPhone 6s 32GB-1.jpg",
+    "src/img/iPhones/iPhone 6s 32GB-2.jpg"
+  ]
+
+}

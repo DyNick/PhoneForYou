@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="favicon" href="favicon.ico">
+    <link rel="stylesheet" href="build/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin-ext">
+
+    <script src="build/js/main.js"></script>
+
+
+    <title>Phone for You</title>
+
+</head>
+<body ng-controller="PhoneListCtrl">
+
+    <header class="nav">
+        <div class="content content_head">
+            <div class="content_head__menu">
+            <span class="logo">
+                <a class="logo-link" href="#/">Phone <span class="logo-link-lower">for</span> You</a>
+            </span>
+                <ul class="nav__list">
+                    <!--<li class="nav__list__item nav__list__item_custom"><a class="nav__list__item-link nav__list__item-link_title" href="#/">Phone <span class="nav__list__item-link_title-lower">for</span> You</a></li>-->
+                    <li class="nav__list__item"><a class="nav__list__item-link" href="#/home">Home</a></li>
+                    <li class="nav__list__item"><a class="nav__list__item-link" href="#/about">About</a></li>
+                    <li class="nav__list__item"><a class="nav__list__item-link" href="#/contact">Contact</a></li>
+                </ul>
+            </div>
+            <span class="basket-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </span>
+        </div>
+    </header><!-- /.nav-collapse -->
+
+    <section>
+        <div class="content">
+
+            <ng-view></ng-view>
+        </div>
+    </section>
+
+
+
+<!--<footer style="height: 40px">
+    <div class="content">
+        <p>&copy; DiNick 2017</p>
+    </div>
+</footer>-->
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+
+.search
+	
+	&__head
+		color: $primary-lime-green
+		text-transform: uppercase
+		
+	
+	&__form
+		
+		&__input
+			padding: 10px
+			width: 100%
+			box-sizing: border-box
+
+.phone-section
+	@include flex-mixin(space-between, center, column)
+	width: 32%
+	box-sizing: border-box
+	float: left
+	border: 1px solid $secondary-light-gray
+	margin-right: 2%
+	margin-top: 2%
+	position: relative
+	
+	@media(max-width: $tablet)
+		width: 100%
+		margin-right: 0
+		display: block
+		
+	@media(max-width: $mobile)
+		@include flex-mixin(space-between, center, column)
+	
+	&:nth-child(3n+1)
+		margin-right: 0
+	
+	&__title
+		color: $secondary-medium-gray
+		text-transform: uppercase
+		margin: 5px 0
+		@media(max-width: $tablet)
+			text-align: center
+	
+	&__image
+		height: 300px
+		width: 150px
+		@media (max-width: $tablet)
+			float: left
+			margin: 2% 0 2% 2%
+		@media(max-width: $mobile)
+			float: none
+			
+	&__button
+		width: 100%
+		@media (max-width: $desktop)
+			height: 150px
+		@media(max-width: $tablet)
+			float: right
+			width: 60%
+		@media(max-width: $mobile)
+			width: 100%
+			float: none
+		
+		&__price
+			margin-left: 10px
+			margin-top: 15px
+			@media(max-width: $tablet)
+				float: right
+				margin: 20px
+			
+			&__title
+				font-size: 13px
+				margin-right: 10px
+				font-weight: bold
+				color: $secondary-gray
+				text-align: center
+			
+			&__total
+				color: red
+				font-size: 20px
+				font-weight: bold
+			
+			&__shipping
+				color: $secondary-gray
+				font-size: 13px
+		
+		&__description
+			height: 50px
+			margin-top: 30px
+			&-detail
+				@include button-mixin($secondary-plum, #fff, 10px)
+				width: 40%
+				display: inline-block
+				margin-left: 10px
+				float: left
+				@media(max-width: $desktop)
+					width: 96%
+					box-sizing: border-box
+					margin-left: 2%
+					margin-right: 2%
+					float: none
+					
+				@media(max-width: $tablet)
+					width: 50%
+					box-sizing: border-box
+					margin-left: 2%
+					margin-right: 2%
+					float: right
+					
+				@media(max-width: $mobile)
+					width: 98%
+					float: none
+			
+			&-basket
+				@include button-mixin($secondary-dark-green, #fff, 10px)
+				width: 40%
+				margin-right: 10px
+				display: inline-block
+				float: right
+				@media(max-width: $desktop)
+					width: 96%
+					box-sizing: border-box
+					margin-left: 2%
+					margin-right: 2%
+					margin-top: 5px
+					margin-bottom: 5px
+					float: none
+				
+				@media(max-width: $tablet)
+					width: 50%
+					box-sizing: border-box
+					margin-left: 2%
+					margin-right: 2%
+					float: right
+					
+				@media(max-width: $mobile)
+					width: 98%
+					float: none
+				&-cart
+					padding-right: 10px
+	&__head
+		color: $primary-sharp-blue
+		@media(max-width: $tablet)
+			margin-left: 3%
+			
+		@media(max-width: $mobile)
+			float: none
+			text-align: center
+	
+	&__list
+		margin: 0 1%
+		color: $secondary-gray
+		
+		@media(max-width: $tablet)
+			width: 60%
+			float: right
+			
+		@media(max-width: $mobile)
+			width: 96%
+			float: none
+		
+		&__item
+			text-align: justify
+			padding-top: 10px
+
+.label
+	&-success
+		background-color: green
+		color: #fff
+		display: inline-block
+		top: 55px
+		left: 60%
+		padding: 5px
+		text-transform: uppercase
+		position: absolute
+		@media(max-width: $tablet)
+			left: 1%
+			top: 70px
+		@media(max-width: $mobile)
+			left: 60%
+			top: 55px
+	
+	&-warning
+		background-color: red
+		color: #fff
+		display: inline-block
+		top: 55px
+		left: 60%
+		padding: 5px
+		text-transform: uppercase
+		position: absolute
+		@media(max-width: $tablet)
+			left: 1%
+			top: 70px
+		@media(max-width: $mobile)
+			left: 60%
+			top: 55px
+	
+
+

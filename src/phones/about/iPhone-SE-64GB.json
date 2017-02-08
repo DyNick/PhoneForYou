@@ -1,0 +1,15 @@
+{
+  "name": "iPhone SE 64GB",
+  "description": "iPhone SE features a 4-inch Retina display, an A9 chip with 64-bit desktop-class architecture, the Touch ID fingerprint sensor, a 12MP iSight camera, a FaceTime HD camera with Retina Flash, Live Photos, LTE and fast Wi-Fi, iOS 9, and iCloud.",
+  "id": "iPhone-SE-64GB",
+  "display": "4.7-inch (diagonal) Retina HD display with 1334-by-750 resolution",
+  "camera": "12MP iSight camera with Focus Pixels, True Tone flash and Live Photos",
+  "os": "iOS 10 and iCloud",
+  "price": "130.55$",
+  "images": [
+    "src/img/iPhones/iPhone SE 64GB-0.jpg",
+    "src/img/iPhones/iPhone SE 64GB-1.jpg",
+    "src/img/iPhones/iPhone SE 64GB-2.jpg"
+  ]
+
+}

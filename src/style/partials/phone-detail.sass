@@ -1,0 +1,47 @@
+.phone-section_phone-detail
+	width: 100%
+	display: block
+.phone-section__head_phone-detail
+		text-align: center
+	
+.phone-images
+	float: left
+	width: 29%
+	margin-left: 2%
+	@include flex-mixin(center,center,column)
+	@media(max-width: $tablet)
+		width: 38%
+		
+	@media(max-width: $mobile)
+		width: 100%
+.phone-params
+	float: right
+	width: 67%
+	margin-right: 2%
+	
+	@media(max-width: $tablet)
+		width: 58%
+	@media(max-width: $mobile)
+		width: 100%
+.phone-section__list_phone-params
+	@media(max-width: $tablet)
+		width: 100%
+		float: none
+.phone-section__button__description-basket_pd
+	width: 45%
+	@media(max-width: $tablet)
+		width: 60%
+		
+	@media(max-width: $mobile)
+		width: 100%
+.phone-section__button_phone-params
+	@media(max-width: $tablet)
+		width: 100%
+		
+.phone-images__main__list__item
+	height: 80px
+	width: 40px
+	float: left
+	margin: 20px
+	@media(max-width: $tablet)
+		margin: 10px

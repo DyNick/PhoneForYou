@@ -1,0 +1,64 @@
+body
+	font-family: 'Oswald', sans-serif
+.container
+	
+
+.content
+	
+	max-width: $container-width
+	margin: 0 auto
+	padding: 0 5px
+
+		
+		
+	&_head
+		@include flex-mixin(space-between,center,row)
+		
+
+		&__menu
+			@include flex-mixin(flex-start,center,row)
+	
+.nav
+	height: 50px
+	background-color: $secondary-medium-gray
+
+
+		
+.nav__list
+	&__item
+		&:hover
+			background-color: $secondary-gray
+		
+		&-link
+			
+			color: $primary-white
+			line-height: 50px
+			font-weight: normal
+			text-transform: uppercase
+			height: 50px
+			width: 140px
+			display: inline-block
+			text-align: center
+			@media(max-width: $tablet)
+				width: 80px
+				font-size: 14px
+				
+				
+
+
+.logo-link
+	color: $primary-white
+	line-height: 50px
+	font-weight: normal
+	text-transform:
+	padding: 10px
+	border: 1px solid #fff
+	margin-right: 10px
+	
+	&-lower
+		text-transform: lowercase
+
+.basket-cart
+	.fa
+		color: #fff
+		font-size: 20px

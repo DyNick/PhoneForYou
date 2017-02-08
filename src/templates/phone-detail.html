@@ -1,0 +1,73 @@
+<!--<div class="content">
+    <h1> {{phone.name}}</h1>
+    <div class="phone-detail">
+        <div class="">
+            <div class="phone-images">
+                <img ng-src="{{mainImageUrl}}" style="height: 300px;width: 150px">
+            </div>
+            <ul class="phone-thumbs list-unstyled">
+                <li ng-repeat="img in phone.images" style="height: 80px;width: 40px;float: left;margin: 20px;">
+                    <img ng-src="{{img}}" ng-click="setImage(img)" style="height: 80px;width: 40px;">
+                </li>
+            </ul>
+        </div>
+        <div class="">
+            <p>{{phone.description}}</p>
+            <ul>
+                <li>{{phone.name}}</li>
+                <li>{{phone.display}}</li>
+                <li>{{phone.camera}}</li>
+                <li>{{phone.os}}</li>
+                <li>
+                    <span>Price:</span><span>{{phone.price}} </span>
+                </li>
+            </ul>
+        </div>
+        <button>add to shopping cart</button>
+    </div>
+</div>-->
+
+
+<div class="phone-section phone-section_phone-detail">
+
+    <h2 class="phone-section__head phone-section__head_phone-detail">{{phone.name}}</h2>
+    <div class="phone-images">
+        <span class="phone-images__main">
+            <img ng-src="{{mainImageUrl}}" style="height: 300px;width: 150px">
+        </span>
+        <ul class="phone-images__main__list">
+            <li class="phone-images__main__list__item" ng-repeat="img in phone.images"
+                style="height: 80px;width: 40px;float: left;margin: 10px;">
+                <img ng-src="{{img}}" ng-click="setImage(img)" style="height: 80px;width: 40px;">
+            </li>
+        </ul>
+    </div>
+
+    <div class="phone-params">
+        <h3 class="phone-section__title">Phone parameters: </h3>
+
+        <ul class="phone-section__list phone-section__list_phone-params">
+            <li class="phone-section__list__item">{{phone.description}}</li>
+            <li class="phone-section__list__item">{{phone.display}}</li>
+            <li class="phone-section__list__item">{{phone.camera}}</li>
+            <li class="phone-section__list__item">{{phone.os}}</li>
+
+        </ul>
+
+        <div class="phone-section__button phone-section__button_phone-params">
+            <div class="phone-section__button__price">
+                <span class="phone-section__button__price__title">Price:</span>
+                <span class="phone-section__button__price__total">{{phone.price}} </span>
+                <span class="phone-section__button__price__shipping">+12.99$ shipping</span>
+
+            </div>
+
+            <div class="phone-section__button__description">
+                <a class="phone-section__button__description-basket phone-section__button__description-basket_pd" href="#/}" role=""><i
+                        class="fa fa-shopping-cart phone-section__button__description-basket-cart"
+                        aria-hidden="true"></i>Add to
+                    cart </a>
+            </div>
+        </div>
+    </div>
+</div>

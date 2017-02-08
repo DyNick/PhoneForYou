@@ -1,0 +1,47 @@
+<div class="content">
+    <div class="search">
+        <h3 class="search__head">Search phones</h3>
+        <div class=" search__form">
+            <form>
+                <input type="text" class="search__form__input" placeholder="Search..." ng-model="search">
+            </form>
+        </div>
+    </div>
+
+    <div class="phone-section" ng-repeat="phone in phones | filter:search">
+          <span class="phone-section__label"
+                ng-init="status = phone.status ? 'is available':'on order' "
+                ng-class="{'label-success': phone.status,'label-warning': !phone.status}">
+                {{status}}
+                </span>
+        <h2 class="phone-section__head">{{phone.name}}</h2>
+        <img class="phone-section__image" ng-src="{{phone.imageUrl}}" alt="{{phone.name}}">
+
+        <h3 class="phone-section__title">Phone parameters: </h3>
+        <ul class="phone-section__list">
+            <li class="phone-section__list__item">{{phone.display}}</li>
+            <li class="phone-section__list__item">{{phone.camera}}</li>
+            <li class="phone-section__list__item">{{phone.os}}</li>
+
+        </ul>
+
+        <div class="phone-section__button">
+            <div class="phone-section__button__price">
+                <span class="phone-section__button__price__title">Price:</span>
+                <span class="phone-section__button__price__total">{{phone.price}} </span>
+                <span class="phone-section__button__price__shipping">+12.99$ shipping</span>
+
+            </div>
+
+            <div class="phone-section__button__description">
+                <a class="phone-section__button__description-detail" href="#phones/{{phone.id}}" role="">View
+                    details </a>
+                <a class="phone-section__button__description-basket" href="#/}" role=""><i
+                        class="fa fa-shopping-cart phone-section__button__description-basket-cart"
+                        aria-hidden="true"></i>Add to
+                    cart </a>
+            </div>
+        </div>
+    </div>
+
+</div>
